@@ -1,0 +1,131 @@
+/* BASE RULES */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* CODE */
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+}
+
+.description {
+  margin: 20px 0;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #404040;
+}
+
+.title-primary,
+.title-second {
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #303030;
+}
+
+.paragraph,
+.list {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #505050;
+}
+
+.paragraph {
+  text-indent: 30px;
+}
+
+.accent {
+  font-weight: bold;
+}
+
+/* table */
+
+.services-table {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: "Roboto", sans-serif;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  padding: 15px;
+  border: 2px solid #ffffff;
+}
+
+.price-all {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgb(176, 102, 254);
+}
+
+.buy-now {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgb(10, 105, 124);
+}
+
+/* button */
+
+.wrapper-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 200px;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: rgb(176, 102, 254);
+  transition: background-color 0.2s linear;
+}
+
+.button:hover {
+  background-color: rgb(10, 105, 124);
+}
