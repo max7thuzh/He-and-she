@@ -129,3 +129,22 @@ td {
 .button:hover {
   background-color: rgb(10, 105, 124);
 }
+
+/* media */
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .title-primary {
+    font-size: 25px;
+  }
+  .title-second {
+    font-size: 20px;
+  }
+  .paragraph,
+  .list,
+  .description {
+    font-size: 16px;
+  }
+}
