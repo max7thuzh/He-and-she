@@ -34,6 +34,24 @@ img {
   height: auto;
 }
 
+/* styles from own template */
+
+.title {
+  margin: 1rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.8rem;
+}
+
+.title, .subtitle {
+  text-align: center;
+  font-weight: bold;
+}
+
 /* CODE */
 
 .container {
